@@ -25,7 +25,7 @@ write_file_path2 = "simulation_results/door/rd_MESADEC_PCT_5.dna"
 percent_change = 0.5
 
 
-#dna_bin.dna_to_bin(read_file_path2,read_file_path)
+dna_bin.dna_to_bin(read_file_path2,read_file_path)
 
 #create encoding pipeline + encoding
 pipeline = TranscodePipeline(coding_scheme=coding_scheme, error_correction=error_correction, need_logs=True)
