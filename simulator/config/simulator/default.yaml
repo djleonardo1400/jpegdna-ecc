@@ -1,0 +1,10 @@
+defaults:
+    - _self_
+    - connection : non_secure_local
+    - post : nosim
+fasta:
+  root: ${hydra:runtime.cwd}\\fasta
+  io:
+    in: ${fasta.root}\\in
+    simulated: ${fasta.root}\\simulated
+    out: ${fasta.root}\\out

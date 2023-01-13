@@ -1,0 +1,1 @@
+python simulator.py connection.host="mesa.mosla.de" connection.port="443" connection.secure=true post.key="YOUR_API_KEY_HERE" connection.n_workers=20
